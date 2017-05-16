@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=UIMainWorld
-comment0.text=\r\n\ A\ basic\ GUI\ interface,\ with\ basic\ GUI\ elements.\r\n\ \r\n\ Author\:\ Gade\ Ricard\r\n\ Teacher\:\ Mr.Hardman\r\n\ Assignment\:\ \#6\ Objects\ and\ Classes\r\n\ Date\r\n
+comment0.text=\r\n\ A\ basic\ GUI\ interface,\ with\ basic\ GUI\ elements.\r\n\ \r\n\ Author\:\ Gade\ Ricard\r\n\ Teacher\:\ Mr.Hardman\r\n\ Assignment\:\ \#6\ Objects\ and\ Classes\r\n\ Date\ Last\ Modified\:\ May\ 15th\r\n
 comment1.params=
 comment1.target=UIMainWorld()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ UIMainWorld.\r\n\ \r\n
