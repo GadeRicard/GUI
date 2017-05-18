@@ -15,5 +15,5 @@ comment5.target=void\ handleMouseClicks()
 comment5.text=\r\n\ handleMouseClicks\ checks\ if\ the\ Button\ object\ is\ pressed\ or\ clicked\ on\ by\ the\ mouse,\r\n\ and\ updates\ the\ buttons\ image\ accordingly.\ Also\ calls\ the\ clickedAction\ method.\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n
 comment6.params=
 comment6.target=void\ clickedAction()
-comment6.text=\r\n\ clickedAction\ is\ a\ placeholder\ method,\ to\ be\ used\ in\ future\ Assignments\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n
+comment6.text=\r\n\ clickedAction\ is\ called\ when\ the\ mouse\ is\ pressed\ and/or\ clicked\ on\ the\ Button\ object,\r\n\ and\ calls\ the\ setWorldImage\ method\ in\ the\ UIMainWorld\ class.\r\n\ \r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n
 numComments=7

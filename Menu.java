@@ -97,7 +97,5 @@ public class Menu extends Actor
             visible = !(visible);
             myWorld.removeObject(menuItems);
         }
-        
-        
     }
 }

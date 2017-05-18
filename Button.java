@@ -58,10 +58,14 @@ public class Button extends Actor
      */
     private void handleMouseClicks()
     {
+        
+        
         if(Greenfoot.mousePressed(this))
         {
             setImage(secondImage);
             getImage().drawImage(text2, (getImage().getWidth() - text1.getWidth())/2, (getImage().getHeight() - text1.getHeight())/2);
+            
+            clickedAction();
         }
         else if(Greenfoot.mouseClicked(this))
         {
@@ -73,13 +77,23 @@ public class Button extends Actor
     }
     
     /**
-     * clickedAction is a placeholder method, to be used in future Assignments
+     * clickedAction is called when the mouse is pressed and/or clicked on the Button object,
+     * and calls the setWorldImage method in the UIMainWorld class.
      * 
      * @param There are no parameters.
      * @return Nothing is returned.
      */
     private void clickedAction()
     {
+        UIMainWorld world = (UIMainWorld)getWorld();
         
+        if(Greenfoot.mousePressed(this))
+        {
+            world.setWorldImage(1);
+        }
+        else if(Greenfoot.mouseClicked(this))
+        {
+             world.setWorldImage(0);
+        }
     }
 }
